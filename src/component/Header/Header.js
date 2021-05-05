@@ -6,7 +6,7 @@ import {faChevronDown} from '@fortawesome/free-solid-svg-icons'
 
 function Header() {
     return (
-        <div className="header-wraper">
+        <div className="header-wraper" id="Home">
             <div className="main-info">
                 <h1>Thibaud Robillard</h1>
                 <Typed className="string"
@@ -23,7 +23,7 @@ function Header() {
                     backSpeed={70}
                     loop >
                 </Typed>
-                <a href='#' className="btn-main-offer">Contact Me</a>
+                <a href='#Contacts' className="btn-main-offer">Contact Me</a>
                 <div>
                 <p className="neon arrow"><ion-icon name="chevron-down-outline"></ion-icon></p>
                 </div>

@@ -109,7 +109,6 @@ color:#e9b5d2 !important;
   justify-content: center;
   align-items: center;
   text-align: center;
-  z-index: 100;
 }
 
 .main-info h1{ 
@@ -135,6 +134,7 @@ color:#e9b5d2 !important;
   text-transform: uppercase;
   border-radius: 0px;
   padding: 12px;
+  z-index: 100;
 }
 
 .btn-main-offer:hover {
@@ -149,7 +149,7 @@ color:#e9b5d2 !important;
   position: absolute;
   height: 100vh;
   width:100vw;
-  z-index:1;
+  z-index:9;
 }
 
 .arrow {
@@ -168,4 +168,20 @@ color:#e9b5d2 !important;
   0%   { transform: translateY(0); }
   50%  { transform: translateY(-50px); }
   100% { transform: translateY(0); }
+}
+
+#AboutMe{
+  height: 100vh;
+}
+
+#Resume{
+  height: 100vh;
+}
+
+#Portfolio{
+  height: 100vh;
+}
+
+#Contacts{
+  height: 100vh;
 }

@@ -17,14 +17,21 @@ function App() {
     <>
     <Particles
       params={{
-        particles: {
-          number:{
-            value:30,
-            density:{
-              enable:true,
-              value_area:900
+        "particles": {
+            "number": {
+                "value": 50
+            },
+            "size": {
+                "value": 3
             }
-          },
+        },
+        "interactivity": {
+            "events": {
+                "onhover": {
+                    "enable": true,
+                    "mode": "repulse"
+                }
+            }
         }
       }}
     />
