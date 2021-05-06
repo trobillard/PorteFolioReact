@@ -2,7 +2,7 @@ import React from 'react'
 
 function Resume() {
     return (
-        <div>
+        <div className="page">
             <h2 id="Resume">Resume</h2>
         </div>
     )

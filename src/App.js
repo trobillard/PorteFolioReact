@@ -41,6 +41,26 @@ function App() {
     <AboutMe/>
     <Resume/>
     <Portfolio/>
+    <Particles
+      params={{
+        "particles": {
+            "number": {
+                "value": 50
+            },
+            "size": {
+                "value": 3
+            }
+        },
+        "interactivity": {
+            "events": {
+                "onhover": {
+                    "enable": true,
+                    "mode": "repulse"
+                }
+            }
+        }
+      }}
+    />
     <Contacts/>
     </>
   );
