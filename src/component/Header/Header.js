@@ -3,11 +3,12 @@ import Typed from 'react-typed';
 import ParticleEffectButton from 'react-particle-effect-button'
 
 
+
 function Header() {
     return (
         <div className="header-wraper" id="Home">
             <div className="main-info">
-                <h1>Thibaud Robillard</h1>
+            <h1 data-text="Thibaud Robillard"><span>Thibaud Robillard</span></h1>
                 <Typed className="string"
                 strings={[
                     'Web Developper',
@@ -22,7 +23,6 @@ function Header() {
                     backSpeed={70}
                     loop >
                 </Typed>
-                <a href='#Contacts' className="btn-main-offer">Contact Me</a>
                 <div>
                 <p className="neon arrow"><ion-icon name="chevron-down-outline"></ion-icon></p>
                 </div>

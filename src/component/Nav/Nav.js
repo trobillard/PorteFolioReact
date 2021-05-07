@@ -27,6 +27,9 @@ const Nav = () => {
               <li className="nav-item">
                 <a className="nav-link" href="#Contact">Contacts</a>
               </li>
+              <li className="nav-item">
+              <a href='#Music' className="button"><ion-icon name="musical-notes-outline"></ion-icon></a>
+              </li>
             </ul>
           </div>
         </div>

@@ -9,6 +9,8 @@ import AboutMe from './component/AboutMe/AboutMe';
 import Contacts from './component/Contacts/Contacts';
 import Portfolio from './component/Portfolio/Portfolio';
 import Resume from './component/Resume/Resume';
+import Music from './component/Music/Music';
+import { Component } from 'react';
 
 
 
@@ -62,6 +64,7 @@ function App() {
       }}
     />
     <Contacts/>
+    <Music/>
     </>
   );
 }

@@ -1,7 +1,7 @@
 const items = [
     {
-        title: "May 1940",
-      cardTitle: "Dunkirk",
+        title: "Feb 1989",
+      cardTitle: "Thibaud is born",
       cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
       cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
       media: {
@@ -12,8 +12,8 @@ const items = [
       }
     },
     {
-        title: "May 1940",
-      cardTitle: "Dunkirk",
+        title: "June 2008",
+      cardTitle: "High School Diploma",
       cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
       cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
       media: {
@@ -24,8 +24,8 @@ const items = [
       }
     },
     {
-        title: "May 1940",
-      cardTitle: "Dunkirk",
+        title: "July 2008",
+      cardTitle: "Iceland",
       cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
       cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
       media: {
@@ -36,8 +36,8 @@ const items = [
       }
     },
     {
-        title: "May 1940",
-      cardTitle: "Dunkirk",
+        title: "June 2009",
+      cardTitle: "South Korea",
       cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
       cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
       media: {
@@ -48,8 +48,8 @@ const items = [
       }
     },
     {
-        title: "May 1940",
-      cardTitle: "Dunkirk",
+        title: "Sept 2010",
+      cardTitle: "IUT of Rouen",
       cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
       cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
       media: {
@@ -60,8 +60,8 @@ const items = [
       }
     },
     {
-        title: "May 1940",
-      cardTitle: "Dunkirk",
+        title: "June 2012",
+      cardTitle: "Graduated and Working Life",
       cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
       cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
       media: {
@@ -72,8 +72,8 @@ const items = [
       }
     },
     {
-        title: "May 1940",
-      cardTitle: "Dunkirk",
+        title: "October 2012",
+      cardTitle: "First Website on Joomla",
       cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
       cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
       media: {

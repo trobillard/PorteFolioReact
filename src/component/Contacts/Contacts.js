@@ -1,4 +1,4 @@
-
+import Map from "./map.jpg";
 import React, { useState } from "react";
 import{ init } from 'emailjs-com';
 init("user_coBxQOtlBGNQRzSFsk1qf");
@@ -45,14 +45,15 @@ const Contacts = () => {
         <div className="page" id="contact">
             <h2 id="Contacts">Contacts</h2>
     <form className="contact-form">
-      <h2>Contactez-nous</h2>
+      <h2>Contact Me</h2>
       <div className="form-content">
         <input
           type="text"
           id="name"
           name="name"
           onChange={(e) => setName(e.target.value)}
-          placeholder="nom *"
+          placeholder="Name"
+          required
           value={name}
           autoComplete="off"
         />
@@ -61,25 +62,28 @@ const Contacts = () => {
           id="company"
           name="company"
           onChange={(e) => setCompany(e.target.value)}
-          placeholder="société"
+          placeholder="Company"
+          required
           value={company}
         />
         <input
-          type="text"
+          type="tel"
           id="phone"
           name="phone"
           onChange={(e) => setPhone(e.target.value)}
-          placeholder="téléphone"
+          placeholder="Phone Number"
+          required
           value={phone}
         />
         <div className="email-content">
           <label id="not-mail">Email non valide</label>
           <input
-            type="mail"
+            type="email"
             id="email"
             name="email"
             onChange={(e) => setEmail(e.target.value)}
-            placeholder="email *"
+            placeholder="Email"
+            required
             value={email}
             autoComplete="off"
           />
@@ -88,16 +92,18 @@ const Contacts = () => {
           id="message"
           name="message"
           onChange={(e) => setMessage(e.target.value)}
-          placeholder="message *"
+          placeholder="Message"
           value={message}
         />
       </div>
+      <div className="wrap">
       <input
         className="button"
         type="button"
-        value="Envoyer"
+        value="Submit"
         onClick={handleSubmit}
       />
+      </div>
       <div className="form-message"></div>
     </form>
     </div>

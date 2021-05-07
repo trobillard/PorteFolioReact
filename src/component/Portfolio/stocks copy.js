@@ -1,6 +1,6 @@
 import React from "react";
 import stockData from "./Dataportefolio";
-import tdg from "../../media/tdg.jpg";
+
 
 export const Stocks = () => {
   return (
@@ -14,7 +14,7 @@ export const Stocks = () => {
                 <p>{data.Language}</p>
                 <p>{data.Time}</p> 
                 <p>{data.Detail}</p>
-                <img className="projectPict"src={data.media}></img><br></br>
+                <p>{data.media}</p>
                 <a href={data.link} className="animated-button1" target="_blank">
                 <span></span>
                 <span></span>

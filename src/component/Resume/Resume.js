@@ -1,9 +1,29 @@
 import React from 'react'
+import title from './resume.jpg'
 
 function Resume() {
     return (
         <div className="page">
             <h2 id="Resume">Resume</h2>
+            <img src={title} alt="logo"/>
+            <a href='https://cvdesignr.com/p/606c09f821c7c' className="animated-button1" target="_blank">
+            <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Resume</a>
+            <a href='https://cvdesignr.com/p/602d2b7e47c32?hl=fr_FR' className="animated-button1" target="_blank">
+            <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                CV</a>
+            <a href='https://cvdesignr.com/p/606c0a36024c5?hl=fr_FR' className="animated-button1" target="_blank">
+            <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                이력서</a>
         </div>
     )
 }
