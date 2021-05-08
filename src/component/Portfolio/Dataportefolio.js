@@ -9,6 +9,7 @@ import swapi from "../../media/swapi.jpg";
 
 
 
+
 const stockData = [
     {
         Project: "Terre de Geek",
@@ -45,6 +46,24 @@ Detail: "First project using reactjs",
 media: swapi,
       link : 'https://github.com/trobillard/reactjsstarwars',
       website:'https://trobillard.github.io/reactjsstarwars/',
+},
+{
+Project: "Cryo Diffusion",
+Language: [<ion-icon name="logo-wordpress"></ion-icon>],
+Time:"Website for CryoDiffusion",
+Detail: "First project using reactjs",
+media: swapi,
+      link : 'https://www.cryodiffusion.com/',
+      website:'https://www.cryodiffusion.com/',
+},
+{
+Project: "Healcerion",
+Language: [<ion-icon name="logo-wordpress"></ion-icon>],
+Time:"Website for Healcerion",
+Detail: "First project using reactjs",
+media: swapi,
+      link : 'https://www.healcerion.com/main',
+      website:'https://www.healcerion.com/main',
 },
 ]
 

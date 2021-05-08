@@ -1,6 +1,7 @@
 import React from 'react'
 import { Stocks } from "./stocks";
 
+
 function Portfolio() {
     return (
         <div className="page" id="portfolio">

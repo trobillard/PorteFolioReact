@@ -1,100 +1,71 @@
+import TboAfpa from '../../media/tboafpa.JPG'
+import Normandy from '../../media/moi.jpg'
+import Student from '../../media/student.jpg'
+import Business from '../../media/business.jpg'
+import More from '../../media/more.jpg'
+
 const items = [
     {
-        title: "Feb 1989",
-      cardTitle: "Thibaud is born",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+        title: "Who am I",
+      cardTitle: "Thibaud Robillard",
+      cardSubtitle:"Born the 5th February 1989",
+      cardDetailedText: "I am a French man and I have lived abroad half of my life (South Korea, Japan, Thailand and Island).",
       media: {
         type: "IMAGE",
         source: {
-          url: "http://someurl/image.jpg"
+          url: Normandy
         }
       }
     },
     {
-        title: "June 2008",
-      cardTitle: "High School Diploma",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+        title: "Studies",
+      cardTitle: "Science, Business and Korean",
+      cardSubtitle:"From France to South Korea",
+      cardDetailedText: "I have been doing all my scholarship in Rouen (France), until my University I have decided to move by myself to Seoul (South Korea). In High School I am gratuated in Science and in University I am graduated from Korean Language from Yonsei University in Seoul and from Technical Sales in Rouen University. ",
       media: {
         type: "IMAGE",
         source: {
-          url: "http://someurl/image.jpg"
+          url: Student
         }
       }
     },
     {
-        title: "July 2008",
-      cardTitle: "Iceland",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
+        title: "Working Life",
+      cardTitle: "Sales",
+      cardSubtitle:"France/Korea/Thailand",
       cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
       media: {
         type: "IMAGE",
         source: {
-          url: "http://someurl/image.jpg"
+          url: Business
         }
       }
     },
     {
-        title: "June 2009",
+      title: "Becoming a Web Developer",
+    cardTitle: "AFPA Course",
+    cardSubtitle:"Starting my Web Developper formatiom",
+    cardDetailedText: "6months of class and 2 months internship to learn Back-end and Front-end",
+    media: {
+      type: "IMAGE",
+      source: {
+        url: TboAfpa
+      }
+    }
+  },
+    {
+        title: "More About Me",
       cardTitle: "South Korea",
       cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
       cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
       media: {
         type: "IMAGE",
         source: {
-          url: "http://someurl/image.jpg"
-        }
-      }
-    },
-    {
-        title: "Sept 2010",
-      cardTitle: "IUT of Rouen",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
-      media: {
-        type: "IMAGE",
-        source: {
-          url: "http://someurl/image.jpg"
-        }
-      }
-    },
-    {
-        title: "June 2012",
-      cardTitle: "Graduated and Working Life",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
-      media: {
-        type: "IMAGE",
-        source: {
-          url: "http://someurl/image.jpg"
-        }
-      }
-    },
-    {
-        title: "October 2012",
-      cardTitle: "First Website on Joomla",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
-      media: {
-        type: "IMAGE",
-        source: {
-          url: "http://someurl/image.jpg"
-        }
-      }
-    },
-    {
-        title: "Feb 2021",
-      cardTitle: "Web Developper",
-      cardSubtitle:"Starting my Web Developper formatiom",
-      cardDetailedText: "6months of class and 2 months internship to learn Back-end and Front-end",
-      media: {
-        type: "Thibaud describing his code",
-        source: {
-          url: "/Users/thibaudrobillard/Desktop/AFPA/portefolioreactjs/src/component/AboutMe/tboafpa.JPG"
+          url: More
         }
       }
     }
+    
 ]
 
 export default items

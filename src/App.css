@@ -634,9 +634,36 @@ content: '';
 }
 
 .projectPict {
-  height:40%;
-  width: 40%;
+  height:100%;
+  width: 100%;
 }
 
+#icon1{
+  color: #f7d4d4;
+}
 
+#title1{
+  color: #f7d4d4;
+}
+#resumeId{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 1em;
+}
 
+#containerP{
+  display: flex;
+}
+
+.timeline-card-content{
+  background-color: #343a40 !important;
+}
+
+.right{
+  color: #f7d4d4!important;
+}
+
+.css-16u30nb-TimelineControlContainer{
+  display: none !important;
+}

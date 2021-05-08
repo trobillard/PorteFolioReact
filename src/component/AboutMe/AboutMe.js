@@ -5,14 +5,14 @@ import data from './DataTimeline'
 
 const AboutMe = () => {
     return (
-        <div className="page">
+        <div className="page" id="portfolio">
         <div>
             <h2 id="AboutMe">About Me</h2>
         </div>
             <div className="Chrono">
     <Chrono
       items={data}
-      mode="HORIZONTAL"
+      mode="VERTICAL"
     />
     </div>
     </div>

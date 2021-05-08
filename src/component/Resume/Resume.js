@@ -3,9 +3,12 @@ import title from './resume.jpg'
 
 function Resume() {
     return (
-        <div className="page">
+        <div className="page" id="portfolio">
             <h2 id="Resume">Resume</h2>
-            <img src={title} alt="logo"/>
+            <section id="containerP">
+            <div id="resumeId">
+            <img id="cvPicture" src={title} alt="logo"/>
+            <div>
             <a href='https://cvdesignr.com/p/606c09f821c7c' className="animated-button1" target="_blank">
             <span></span>
                 <span></span>
@@ -24,6 +27,9 @@ function Resume() {
                 <span></span>
                 <span></span>
                 이력서</a>
+                </div>
+            </div>
+            </section>
         </div>
     )
 }

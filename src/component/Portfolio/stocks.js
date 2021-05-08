@@ -1,18 +1,18 @@
 import React from "react";
 import stockData from "./Dataportefolio";
-import tdg from "../../media/tdg.jpg";
+
 
 export const Stocks = () => {
   return (
     <>
-      <div>
+      <div className="row">
         {stockData.map((data, key) => {
           return (
-            <div className="col-6 col-sm-4 col-lg-6"> 
-            <article className="bg-dark text-center text-white py-5 my-3" key={key}>
-              <p>{data.Project}</p>
-                <p>{data.Language}</p>
-                <p>{data.Time}</p> 
+            <div className="col-sm-12 col-md-6 col-lg-4 p-4 h-100"> 
+            <article className="bg-dark text-center text-white py-3 my-2" key={key}>
+              <h2 id="title1">{data.Project}</h2>
+                <h2 id="icon1">{data.Language}</h2>
+                <h4>{data.Time}</h4> 
                 <p>{data.Detail}</p>
                 <img className="projectPict"src={data.media}></img><br></br>
                 <a href={data.link} className="animated-button1" target="_blank">
@@ -35,3 +35,4 @@ export const Stocks = () => {
     </>
   );
 };
+

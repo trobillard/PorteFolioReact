@@ -1,6 +1,7 @@
 import Map from "./map.jpg";
 import React, { useState } from "react";
 import{ init } from 'emailjs-com';
+import Nor from '../../media/normandy.jpg'
 init("user_coBxQOtlBGNQRzSFsk1qf");
 
 
@@ -106,6 +107,9 @@ const Contacts = () => {
       </div>
       <div className="form-message"></div>
     </form>
+    <div>
+      <img src={Nor} alt='Normandy'></img>
+    </div>
     </div>
   );
 };
