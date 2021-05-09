@@ -10,7 +10,6 @@ import Contacts from './component/Contacts/Contacts';
 import Portfolio from './component/Portfolio/Portfolio';
 import Resume from './component/Resume/Resume';
 import Music from './component/Music/Music';
-import { Component } from 'react';
 
 
 
@@ -43,28 +42,9 @@ function App() {
     <AboutMe/>
     <Resume/>
     <Portfolio/>
-    <Particles
-      params={{
-        "particles": {
-            "number": {
-                "value": 50
-            },
-            "size": {
-                "value": 3
-            }
-        },
-        "interactivity": {
-            "events": {
-                "onhover": {
-                    "enable": true,
-                    "mode": "repulse"
-                }
-            }
-        }
-      }}
-    />
     <Contacts/>
     <Music/>
+    <Footer/>
     </>
   );
 }

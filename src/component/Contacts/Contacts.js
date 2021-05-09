@@ -43,7 +43,7 @@ const Contacts = () => {
   };
 
   return (
-        <div className="page" id="contact">
+        <div className="page" id="Contact">
             <h2 id="Contacts">Contacts</h2>
             <div className="row">
               <div className="col-sm-12 col-md-6 col-lg-6 p-4 h-100">
@@ -111,7 +111,7 @@ const Contacts = () => {
       <div className="form-message"></div>
     </form>
     </div>
-    <div className="col-sm-12 col-md-6 col-lg-6 p-4 h-100">
+    <div className="col-sm-12 col-md-6 col-lg-6 p-4 h-100" id="cc">
     <div id="nor">
       <img src={Nor} alt='Normandy'></img>
     </div>
