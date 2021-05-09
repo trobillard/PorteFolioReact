@@ -1,8 +1,8 @@
-import Map from "./map.jpg";
 import React, { useState } from "react";
 import{ init } from 'emailjs-com';
 import Nor from '../../media/normandy.jpg'
 init("user_coBxQOtlBGNQRzSFsk1qf");
+
 
 
 const Contacts = () => {
@@ -45,6 +45,8 @@ const Contacts = () => {
   return (
         <div className="page" id="contact">
             <h2 id="Contacts">Contacts</h2>
+            <div className="row">
+              <div className="col-sm-12 col-md-6 col-lg-6 p-4 h-100">
     <form className="contact-form">
       <h2>Contact Me</h2>
       <div className="form-content">
@@ -105,12 +107,18 @@ const Contacts = () => {
         onClick={handleSubmit}
       />
       </div>
+      
       <div className="form-message"></div>
     </form>
-    <div>
+    </div>
+    <div className="col-sm-12 col-md-6 col-lg-6 p-4 h-100">
+    <div id="nor">
       <img src={Nor} alt='Normandy'></img>
     </div>
     </div>
+    </div>
+    </div>
+    
   );
 };
 

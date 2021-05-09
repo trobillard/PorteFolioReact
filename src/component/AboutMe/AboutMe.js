@@ -9,10 +9,11 @@ const AboutMe = () => {
         <div>
             <h2 id="AboutMe">About Me</h2>
         </div>
-            <div className="Chrono">
+            <div className="Chrono" style={{width: "100%"}}>
     <Chrono
       items={data}
-      mode="VERTICAL"
+      mode="VERTICAL_ALTERNATING"
+      theme={{primary: "purple", secondary: "dark",cardForeColor: "pink"}}
     />
     </div>
     </div>

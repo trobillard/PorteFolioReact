@@ -5,7 +5,7 @@ function Resume() {
     return (
         <div className="page" id="portfolio">
             <h2 id="Resume">Resume</h2>
-            <section id="containerP">
+            <section className ="container" id="containerP" >
             <div id="resumeId">
             <img id="cvPicture" src={title} alt="logo"/>
             <div>

@@ -126,7 +126,7 @@ color:#e9b5d2 !important;
   filter: blur(0.007em);
   animation: shake 2.5s linear forwards;
   /* animation-iteration-count :infinite; */
-  margin-top: 25%;
+  margin-top: 33%;
 }
 
 h1 span {
@@ -249,7 +249,7 @@ h1::after {
   animation-iteration-count: infinite;
   transform-origin: bottom;
   color: #fc60a3;
-  margin-top: 3em;
+  margin-top: 4em;
 }
 
 .arrow {
@@ -262,20 +262,11 @@ h1::after {
   100% { transform: translateY(0); }
 }
 
-
-
-.page {
-  min-height: 100vh;
-}
 /****************ABoutMe*************/
 #AboutMe{
   height: 10vh;
 }
 
-.Chrono {
-  padding: 1em;
-  min-width: none;
-}
 
 .card-media-wrapper {
   width:80% !important;
@@ -287,21 +278,32 @@ h1::after {
   padding-right: 1em;
 }
 
-.timeline-card-content {
-  width: 80% !important;
-  padding-right: 1em;
-}
-
 .timeline-horz-card-wrapper{
   width: 80% !important;
   padding-left: 4em;
 }
 
+.timeline-card-content{
+  background-color: #343a40 !important;
+}
+
+.right, .left{
+  color: #fc60a3!important;
+}
+
+.css-16u30nb-TimelineControlContainer{
+  display: none !important;
+}
+
 /****************Contact*************/
+#nor img{
+  height: 100%;
+  width: 100%;
+}
+
 .contact-form {
   margin: 3rem auto 0;
-  max-width: 50%;
-  max-width: 350px;
+  max-width: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border: 1px solid #fc60a3;
   background: #363434;
@@ -310,10 +312,13 @@ h1::after {
   z-index: 100;
   margin-left: 1em;
 }
-h2 {
-  margin-top: 35px;
-  text-align: center;
+
+#form{
+display: flex;
+justify-content: space-around !important;
 }
+
+
 .form-content {
   display: grid;
   grid-template-rows: repeat(4, 1fr) 105px;
@@ -330,13 +335,14 @@ textarea {
 }
 input::placeholder, 
 textarea::placeholder {
- color: rgb(190, 188, 188);
+ color: white;
+ opacity: 0.7;
  z-index: 100;
 }
 input,
 .email-content,
 textarea {
-  width: 90%;
+  width: 100%;
   z-index: 100;
 }
 input {
@@ -426,6 +432,7 @@ background: linear-gradient(90deg, rgba(252,96,163,1) 0%, rgb(245, 129, 179) 100
   position: relative;
   padding: 10px;
   z-index: 100;
+  width: 20%;
   }
 
 .button::before {
@@ -649,21 +656,36 @@ content: '';
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 1em;
 }
 
 #containerP{
   display: flex;
 }
 
-.timeline-card-content{
-  background-color: #343a40 !important;
+#cvPicture{
+  width: 100%;
 }
 
-.right{
-  color: #f7d4d4!important;
+.row{
+  margin-left: none !important;
+  margin-right: none !important;
 }
 
-.css-16u30nb-TimelineControlContainer{
-  display: none !important;
+.page{
+  background-image: url(../src/media/bg.jpg);
+  min-height: 100vh;
+}
+
+.pagePortfolio{
+  background-image: url(../src/media/earth.jpg);
+  min-height: 100vh;
+}
+
+h2{
+  color: #fff;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-shadow: 0 0 0.15em #e9b5d2;
+  margin-top: 35px;
+  text-align: center;
 }

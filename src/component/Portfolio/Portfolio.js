@@ -4,7 +4,7 @@ import { Stocks } from "./stocks";
 
 function Portfolio() {
     return (
-        <div className="page" id="portfolio">
+        <div className="pagePortfolio" id="portfolio">
             <h2 id="Portfolio">Portfolio</h2>
             <div className="col">
             <Stocks/>
