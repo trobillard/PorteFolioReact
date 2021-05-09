@@ -13,6 +13,7 @@ const AboutMe = () => {
     <Chrono
       items={data}
       mode="VERTICAL_ALTERNATING"
+      hideControls
       theme={{primary: "purple", secondary: "dark",cardForeColor: "pink"}}
     />
     </div>
