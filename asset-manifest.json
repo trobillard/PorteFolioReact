@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/PorteFolioReact/static/css/main.d98598e1.chunk.css",
-    "main.js": "/PorteFolioReact/static/js/main.771111fe.chunk.js",
-    "main.js.map": "/PorteFolioReact/static/js/main.771111fe.chunk.js.map",
+    "main.css": "/PorteFolioReact/static/css/main.50a33907.chunk.css",
+    "main.js": "/PorteFolioReact/static/js/main.dbc91f00.chunk.js",
+    "main.js.map": "/PorteFolioReact/static/js/main.dbc91f00.chunk.js.map",
     "runtime-main.js": "/PorteFolioReact/static/js/runtime-main.fd448354.js",
     "runtime-main.js.map": "/PorteFolioReact/static/js/runtime-main.fd448354.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/PorteFolioReact/static/css/2.4c97ca4f.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.252ba1f1.chunk.js.map": "/PorteFolioReact/static/js/3.252ba1f1.chunk.js.map",
     "index.html": "/PorteFolioReact/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/PorteFolioReact/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.d98598e1.chunk.css.map": "/PorteFolioReact/static/css/main.d98598e1.chunk.css.map",
+    "static/css/main.50a33907.chunk.css.map": "/PorteFolioReact/static/css/main.50a33907.chunk.css.map",
     "static/js/2.3cff1174.chunk.js.LICENSE.txt": "/PorteFolioReact/static/js/2.3cff1174.chunk.js.LICENSE.txt",
     "static/media/bank.c4ed0154.jpg": "/PorteFolioReact/static/media/bank.c4ed0154.jpg",
     "static/media/App.css": "/PorteFolioReact/static/media/earth.a7c0bdd1.jpg",
@@ -35,7 +35,7 @@
     "static/js/runtime-main.fd448354.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.3cff1174.chunk.js",
-    "static/css/main.d98598e1.chunk.css",
-    "static/js/main.771111fe.chunk.js"
+    "static/css/main.50a33907.chunk.css",
+    "static/js/main.dbc91f00.chunk.js"
   ]
 }
