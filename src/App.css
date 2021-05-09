@@ -273,6 +273,7 @@ h1::after {
 /****************ABoutMe*************/
 #AboutMe{
   height: 10vh;
+  margin-top: 0;
 }
 
 
@@ -686,6 +687,10 @@ content: '';
   align-items: center;
 }
 
+#resume{
+  margin-top: 0;
+}
+
 #containerP{
   display: flex;
 }
@@ -716,6 +721,7 @@ h2{
   text-shadow: 0 0 0.15em #e9b5d2;
   margin-top: 35px;
   text-align: center;
+  margin-top: 0;
 }
 
 .logoPro{
