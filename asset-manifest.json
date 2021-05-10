@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PorteFolioReact/static/css/main.a956374e.chunk.css",
+    "main.css": "/PorteFolioReact/static/css/main.baa36023.chunk.css",
     "main.js": "/PorteFolioReact/static/js/main.39df2f6a.chunk.js",
     "main.js.map": "/PorteFolioReact/static/js/main.39df2f6a.chunk.js.map",
     "runtime-main.js": "/PorteFolioReact/static/js/runtime-main.fd448354.js",
@@ -12,10 +12,10 @@
     "static/js/3.252ba1f1.chunk.js.map": "/PorteFolioReact/static/js/3.252ba1f1.chunk.js.map",
     "index.html": "/PorteFolioReact/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/PorteFolioReact/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.a956374e.chunk.css.map": "/PorteFolioReact/static/css/main.a956374e.chunk.css.map",
+    "static/css/main.baa36023.chunk.css.map": "/PorteFolioReact/static/css/main.baa36023.chunk.css.map",
     "static/js/2.3cff1174.chunk.js.LICENSE.txt": "/PorteFolioReact/static/js/2.3cff1174.chunk.js.LICENSE.txt",
     "static/media/bank.c4ed0154.jpg": "/PorteFolioReact/static/media/bank.c4ed0154.jpg",
-    "static/media/App.css": "/PorteFolioReact/static/media/earthphone.dd327e3f.jpg",
+    "static/media/App.css": "/PorteFolioReact/static/media/earthphone.58800287.jpg",
     "static/media/business.2f2c907b.jpg": "/PorteFolioReact/static/media/business.2f2c907b.jpg",
     "static/media/cd.62c001a1.jpg": "/PorteFolioReact/static/media/cd.62c001a1.jpg",
     "static/media/gaming.fcc4a74c.jpg": "/PorteFolioReact/static/media/gaming.fcc4a74c.jpg",
@@ -35,7 +35,7 @@
     "static/js/runtime-main.fd448354.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.3cff1174.chunk.js",
-    "static/css/main.a956374e.chunk.css",
+    "static/css/main.baa36023.chunk.css",
     "static/js/main.39df2f6a.chunk.js"
   ]
 }
