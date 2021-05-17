@@ -13,12 +13,20 @@ function Header() {
                 strings={[
                     'Web Developer',
                     '웹 개발자',
+                    'นักพัฒนาเว็บไซต์',
+                    'WEBデベロッパー',
                     'Web Designer',
-                    ' 디자이너',
+                    '디자이너',
+                    'นักออกแบบเว็บไซต์',
+                    'WEBデザイナー',
                     'Front-End',
                     '프런트 엔드',
+                    'หน้าบ้าน',
+                    'フロントエンド',
                     'Back-End',
-                    '백엔드']}
+                    '백엔드',
+                    'หลังบ้าน',
+                    'バックエンド']}
                     typeSpeed={60}
                     backSpeed={70}
                     loop >
