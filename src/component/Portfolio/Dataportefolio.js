@@ -2,8 +2,8 @@ import tdg from "../../media/tdg.jpg";
 import bank from "../../media/bank.jpg";
 import gaming from "../../media/gaming.jpg";
 import swapi from "../../media/swapi.jpg";
-import healcerion from '../../media/healcerion.jpg'
-import cd from '../../media/cd.jpg'
+import healcerion from '../../media/healcerion.jpg';
+import cd from '../../media/cd.jpg';
 
 
 
@@ -67,6 +67,15 @@ media: healcerion,
       link : 'https://www.healcerion.com/main',
       website:'https://www.healcerion.com/main',
 },
+{
+  Project: "TㅆB Bank",
+    Language: [<ion-icon name="logo-html5"></ion-icon>,<ion-icon name="logo-css3"></ion-icon>,<ion-icon name="logo-nodejs"></ion-icon>,<ion-icon name="code-slash-outline"></ion-icon>],
+    Time:"Project after 12 weeks learning Code",
+    Detail: "Starting of PHP, convert my Korean bank website into PHP",
+    media: bank,
+      link : 'https://github.com/trobillard/T-BBank-PHP',
+      website:'https://github.com/trobillard/T-BBank-PHP',
+  }
 ]
 
 export default stockData

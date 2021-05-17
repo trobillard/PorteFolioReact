@@ -11,7 +11,7 @@ function Header() {
             <h1 data-text="Thibaud Robillard"><span>Thibaud Robillard</span></h1>
                 <Typed className="string"
                 strings={[
-                    'Web Developper',
+                    'Web Developer',
                     '웹 개발자',
                     'Web Designer',
                     ' 디자이너',
