@@ -30,10 +30,13 @@ function Resume() {
                 </div>
             </div>
             </section>
-            <section>
-                <span id="shootingstar"></span>
-                <span id="shootingstar"></span>
-                <span id="shootingstar"></span>
+            <section id="shooting">
+                <span id="shootingstar"><ion-icon name="logo-html5"></ion-icon></span>
+                <span id="shootingstar"><ion-icon name="logo-css3"></ion-icon></span>
+                <span id="shootingstar"><ion-icon name="logo-nodejs"></ion-icon></span>
+                <span id="shootingstar"><ion-icon name="logo-react"></ion-icon></span>
+                <span id="shootingstar"><ion-icon name="logo-wordpress"></ion-icon></span>
+                <span id="shootingstar"><ion-icon name="code-slash-outline"></ion-icon></span>
             </section>
         </div>
     )
