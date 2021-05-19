@@ -30,6 +30,11 @@ function Resume() {
                 </div>
             </div>
             </section>
+            <section>
+                <span id="shootingstar"></span>
+                <span id="shootingstar"></span>
+                <span id="shootingstar"></span>
+            </section>
         </div>
     )
 }
