@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PorteFolioReact/static/css/main.f478a994.chunk.css",
-    "main.js": "/PorteFolioReact/static/js/main.1648d158.chunk.js",
-    "main.js.map": "/PorteFolioReact/static/js/main.1648d158.chunk.js.map",
+    "main.js": "/PorteFolioReact/static/js/main.13b20898.chunk.js",
+    "main.js.map": "/PorteFolioReact/static/js/main.13b20898.chunk.js.map",
     "runtime-main.js": "/PorteFolioReact/static/js/runtime-main.fd448354.js",
     "runtime-main.js.map": "/PorteFolioReact/static/js/runtime-main.fd448354.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/PorteFolioReact/static/css/2.4c97ca4f.chunk.css",
@@ -24,6 +24,7 @@
     "static/media/logo.6ce24c58.svg": "/PorteFolioReact/static/media/logo.6ce24c58.svg",
     "static/media/moi.0f7a9695.jpg": "/PorteFolioReact/static/media/moi.0f7a9695.jpg",
     "static/media/more.2ae7ee78.jpg": "/PorteFolioReact/static/media/more.2ae7ee78.jpg",
+    "static/media/norimmo.b02a3826.jpg": "/PorteFolioReact/static/media/norimmo.b02a3826.jpg",
     "static/media/normandy.da78bca2.jpg": "/PorteFolioReact/static/media/normandy.da78bca2.jpg",
     "static/media/resume.975dc438.jpg": "/PorteFolioReact/static/media/resume.975dc438.jpg",
     "static/media/student.4226a8e5.jpg": "/PorteFolioReact/static/media/student.4226a8e5.jpg",
@@ -36,6 +37,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.3cff1174.chunk.js",
     "static/css/main.f478a994.chunk.css",
-    "static/js/main.1648d158.chunk.js"
+    "static/js/main.13b20898.chunk.js"
   ]
 }
