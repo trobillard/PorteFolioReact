@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/PorteFolioReact/static/css/main.6e9e3abb.chunk.css",
-    "main.js": "/PorteFolioReact/static/js/main.e1b64bd9.chunk.js",
-    "main.js.map": "/PorteFolioReact/static/js/main.e1b64bd9.chunk.js.map",
+    "main.css": "/PorteFolioReact/static/css/main.834abe1f.chunk.css",
+    "main.js": "/PorteFolioReact/static/js/main.5a1f9a48.chunk.js",
+    "main.js.map": "/PorteFolioReact/static/js/main.5a1f9a48.chunk.js.map",
     "runtime-main.js": "/PorteFolioReact/static/js/runtime-main.fd448354.js",
     "runtime-main.js.map": "/PorteFolioReact/static/js/runtime-main.fd448354.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/PorteFolioReact/static/css/2.4c97ca4f.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.252ba1f1.chunk.js.map": "/PorteFolioReact/static/js/3.252ba1f1.chunk.js.map",
     "index.html": "/PorteFolioReact/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/PorteFolioReact/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.6e9e3abb.chunk.css.map": "/PorteFolioReact/static/css/main.6e9e3abb.chunk.css.map",
+    "static/css/main.834abe1f.chunk.css.map": "/PorteFolioReact/static/css/main.834abe1f.chunk.css.map",
     "static/js/2.3cff1174.chunk.js.LICENSE.txt": "/PorteFolioReact/static/js/2.3cff1174.chunk.js.LICENSE.txt",
     "static/media/bank.c4ed0154.jpg": "/PorteFolioReact/static/media/bank.c4ed0154.jpg",
     "static/media/App.css": "/PorteFolioReact/static/media/earthphone.58800287.jpg",
@@ -36,7 +36,7 @@
     "static/js/runtime-main.fd448354.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.3cff1174.chunk.js",
-    "static/css/main.6e9e3abb.chunk.css",
-    "static/js/main.e1b64bd9.chunk.js"
+    "static/css/main.834abe1f.chunk.css",
+    "static/js/main.5a1f9a48.chunk.js"
   ]
 }
