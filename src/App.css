@@ -942,6 +942,7 @@ height: 10%;
   .page{
     background-image: url(../src/media/bg.jpg);
     min-height: 100vh;
+    background-repeat: no-repeat;
   }
   
   .pagePortfolio{
