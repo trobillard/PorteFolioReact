@@ -4,7 +4,7 @@ import gaming from "../../media/gaming.jpg";
 import swapi from "../../media/swapi.jpg";
 import healcerion from '../../media/healcerion.jpg';
 import cd from '../../media/cd.jpg';
-
+import immo from '../../media/norimmo.jpg';
 
 
 
@@ -23,14 +23,23 @@ const stockData = [
       website:'https://trobillard.github.io/terredegeek/',
     },
     {
-      Project: "TㅆB Bank",
+      Project: "NorImmo",
     Language: [<ion-icon name="logo-html5"></ion-icon>,<ion-icon name="logo-css3"></ion-icon>,<ion-icon name="logo-nodejs"></ion-icon>],
-    Time:"Project after 7 weeks learning Code",
-    Detail: "Learning the API. I have decided to do a Korean look a like Banking website.",
-    media: bank,
-      link : 'https://github.com/trobillard/T-BBank',
-      website:'https://trobillard.github.io/T-BBank/',
+    Time:"Project after 6 weeks learning Code",
+    Detail: "Learning the DOM, doing a website with some bootstrap but mostly only JS/HTML/CSS",
+    media: immo,
+      link : 'https://github.com/trobillard/Norimmo',
+      website:'https://trobillard.github.io/Norimmo/',
   },
+  {
+    Project: "TㅆB Bank",
+  Language: [<ion-icon name="logo-html5"></ion-icon>,<ion-icon name="logo-css3"></ion-icon>,<ion-icon name="logo-nodejs"></ion-icon>],
+  Time:"Project after 7 weeks learning Code",
+  Detail: "Learning the API. I have decided to do a Korean look a like Banking website.",
+  media: bank,
+    link : 'https://github.com/trobillard/T-BBank',
+    website:'https://trobillard.github.io/T-BBank/',
+},
   {
     Project: "Taishibo Gaming",
   Language: [<ion-icon name="logo-html5"></ion-icon>,<ion-icon name="logo-css3"></ion-icon>,<ion-icon name="logo-nodejs"></ion-icon>],

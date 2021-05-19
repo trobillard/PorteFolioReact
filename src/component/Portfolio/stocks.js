@@ -20,7 +20,7 @@ export const Stocks = () => {
                 <span></span>
                 <span></span>
                 <span></span>
-                Repository Github</a>
+                Github</a>
                 <a href={data.website} className="animated-button1" target="_blank">
                 <span></span>
                 <span></span>
