@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/PorteFolioReact/static/css/main.73a753dd.chunk.css",
-    "main.js": "/PorteFolioReact/static/js/main.5a1f9a48.chunk.js",
-    "main.js.map": "/PorteFolioReact/static/js/main.5a1f9a48.chunk.js.map",
-    "runtime-main.js": "/PorteFolioReact/static/js/runtime-main.fd448354.js",
-    "runtime-main.js.map": "/PorteFolioReact/static/js/runtime-main.fd448354.js.map",
+    "main.css": "/PorteFolioReact/static/css/main.d912bba5.chunk.css",
+    "main.js": "/PorteFolioReact/static/js/main.eada41bd.chunk.js",
+    "main.js.map": "/PorteFolioReact/static/js/main.eada41bd.chunk.js.map",
+    "runtime-main.js": "/PorteFolioReact/static/js/runtime-main.0e4d1cdf.js",
+    "runtime-main.js.map": "/PorteFolioReact/static/js/runtime-main.0e4d1cdf.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/PorteFolioReact/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.3cff1174.chunk.js": "/PorteFolioReact/static/js/2.3cff1174.chunk.js",
-    "static/js/2.3cff1174.chunk.js.map": "/PorteFolioReact/static/js/2.3cff1174.chunk.js.map",
-    "static/js/3.252ba1f1.chunk.js": "/PorteFolioReact/static/js/3.252ba1f1.chunk.js",
-    "static/js/3.252ba1f1.chunk.js.map": "/PorteFolioReact/static/js/3.252ba1f1.chunk.js.map",
+    "static/js/2.9eab6983.chunk.js": "/PorteFolioReact/static/js/2.9eab6983.chunk.js",
+    "static/js/2.9eab6983.chunk.js.map": "/PorteFolioReact/static/js/2.9eab6983.chunk.js.map",
+    "static/js/3.f707b9d3.chunk.js": "/PorteFolioReact/static/js/3.f707b9d3.chunk.js",
+    "static/js/3.f707b9d3.chunk.js.map": "/PorteFolioReact/static/js/3.f707b9d3.chunk.js.map",
     "index.html": "/PorteFolioReact/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/PorteFolioReact/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.73a753dd.chunk.css.map": "/PorteFolioReact/static/css/main.73a753dd.chunk.css.map",
-    "static/js/2.3cff1174.chunk.js.LICENSE.txt": "/PorteFolioReact/static/js/2.3cff1174.chunk.js.LICENSE.txt",
+    "static/css/main.d912bba5.chunk.css.map": "/PorteFolioReact/static/css/main.d912bba5.chunk.css.map",
+    "static/js/2.9eab6983.chunk.js.LICENSE.txt": "/PorteFolioReact/static/js/2.9eab6983.chunk.js.LICENSE.txt",
     "static/media/bank.c4ed0154.jpg": "/PorteFolioReact/static/media/bank.c4ed0154.jpg",
     "static/media/App.css": "/PorteFolioReact/static/media/earthphone.58800287.jpg",
     "static/media/business.2f2c907b.jpg": "/PorteFolioReact/static/media/business.2f2c907b.jpg",
@@ -33,10 +33,10 @@
     "static/media/tdg.899ae358.jpg": "/PorteFolioReact/static/media/tdg.899ae358.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.fd448354.js",
+    "static/js/runtime-main.0e4d1cdf.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.3cff1174.chunk.js",
-    "static/css/main.73a753dd.chunk.css",
-    "static/js/main.5a1f9a48.chunk.js"
+    "static/js/2.9eab6983.chunk.js",
+    "static/css/main.d912bba5.chunk.css",
+    "static/js/main.eada41bd.chunk.js"
   ]
 }
