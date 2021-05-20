@@ -2,7 +2,31 @@ import React from 'react'
 import Logo from './logo.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faFolderMinus} from '@fortawesome/free-solid-svg-icons'
-const Nav = () => {
+
+
+class Nav extends React.Component {
+  constructor(props) {
+      super(props);
+      this.state = { windowHeight: window.innerHeight };
+  }
+  componentDidMount() {
+      window.addEventListener("scroll", this.handleScroll);
+  }
+  
+  componentWillUnmount() {
+      window.removeEventListener("scroll", this.handleScroll);
+  }
+  
+  handleScroll = () => {
+      let windowsize = this.state.windowHeight;
+      if (window.scrollY > windowsize) {
+        document.querySelector(".navbar").className = "navbar navscroll navbar-expand-lg fixed-top";
+      } else {
+        document.querySelector(".navbar").className = "navbar navbar-expand-lg fixed-top";
+      }
+  };
+
+  render() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
@@ -34,7 +58,8 @@ const Nav = () => {
           </div>
         </div>
       </nav>
-    )
+    );
+  }
 }
 
 export default Nav

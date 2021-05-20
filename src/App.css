@@ -1,6 +1,6 @@
 
 body {
-  background-color: black;
+  background-color: black !important;
 }
 
 .App {
@@ -54,6 +54,7 @@ nav {
   backdrop-filter: blur 30px !important;
   border: 2px solid rgba(255, 255, 255, 0.7) !important;
   border-radius: 10px;
+  width: 50%;
 }
 
 .logo {
@@ -682,9 +683,8 @@ background: linear-gradient(90deg, rgba(252,96,163,1) 0%, rgb(245, 129, 179) 100
   color: #f7d4d4;
 }
 
-#title1{
-  color: #f7d4d4;
-}
+
+
 #resumeId{
   display: flex;
   flex-direction: column;
@@ -724,10 +724,16 @@ h2{
   color: #fff;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  text-shadow: 0 0 0.15em #e9b5d2;
-  margin-top: 35px;
+  text-shadow: 0 0 1.15em #e9b5d2;
+  margin-top: 2em;
+  margin-bottom: 1em;
   text-align: center;
-  margin-top: 0;
+}
+
+#title1 {
+  color: #f7d4d4;
+  margin-top: none !important;
+  margin-bottom: none !important;
 }
 
 .logoPro{
@@ -898,12 +904,16 @@ height: 10%;
   z-index: 30;
 }
 
+
+
 #cardTest:before{
   position: absolute;
 }
 
 #cardTest:hover{
   transform: translateY(-5%);
+  background-color:rgba(8, 8, 8, 0.9) !important;
+  z-index: 30;
 }
 
 #Contact{
@@ -912,7 +922,7 @@ height: 10%;
 
 #cardTest h4, #cardTest p{
   color: #d12c87;
-  text-shadow: 0 0 1.15em #fff;
+  /* text-shadow: 0 0 1.15em #fff; */
 }
 
 
@@ -949,7 +959,7 @@ height: 10%;
   .page{
     background-image: url(../src/media/bg.jpg);
     min-height: 100vh;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
   }
   
   .pagePortfolio{
@@ -1027,6 +1037,20 @@ color: #fff;
     animation-delay: 0,08s;
     animation-duration: 6s;
   }
+  #shootingstar:nth-child(6)
+  {
+    top:360%;
+    left: 75%;
+    animation-delay: 1.5s;
+    animation-duration: 5s;
+  }
+  #shootingstar:nth-child(7)
+  {
+    top:400%;
+    left: 60%;
+    animation-delay: 1.2s;
+    animation-duration: 4s;
+  }
   
   @keyframes animate{
     0% {
@@ -1044,6 +1068,65 @@ color: #fff;
 }
 
 @media screen and (min-width:1025px){
+  .page1{
+    background-image: url(../src/media/bgbig.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat !important;
+  }
+  #shootingstar{
+    position: absolute;
+    top: 335%;
+    left:80%;
+  }
+
+  #shootingstar:nth-child(1)
+  {
+    top:300%;
+    left: 85%;
+  }
+  #shootingstar:nth-child(2)
+  {
+    top: 310%;
+    left: 67%;
+  }
+  #shootingstar:nth-child(3)
+  {
+    top:318%;
+    left: 75%;
+  }
+  #shootingstar:nth-child(4)
+  {
+    top:345%;
+    left: 80%;
+  }
+  #shootingstar:nth-child(5)
+  {
+    top:325%;
+    left: 85%;
+  }
+  #shootingstar:nth-child(6)
+  {
+    top:330%;
+    left: 75%;
+  }
+  #shootingstar:nth-child(7)
+  {
+    top:312%;
+    left: 60%;
+  }
+  @keyframes animate{
+    0% {
+      transform: rotate(315deg) translateX(0);
+      opacity: 1;
+    }
+    70% {
+      opacity: 0,6;
+    }
+    100%{
+      transform: rotate(315deg) translateX(-1000px);
+      opacity: 0;
+    }
+  }
 }
 @media screen and (min-width:1201px){
 }

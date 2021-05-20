@@ -3,7 +3,7 @@ import title from './resume.jpg'
 
 function Resume() {
     return (
-        <div className="page" id="portfolio">
+        <div className="page1" id="portfolio">
             <h2 id="Resume">Resume</h2>
             <section className ="container" id="containerP" >
             <div id="resumeId">
@@ -37,6 +37,8 @@ function Resume() {
                 <span id="shootingstar"><ion-icon name="logo-react"></ion-icon></span>
                 <span id="shootingstar"><ion-icon name="logo-wordpress"></ion-icon></span>
                 <span id="shootingstar"><ion-icon name="code-slash-outline"></ion-icon></span>
+                <span id="shootingstar"><ion-icon name="logo-python"></ion-icon></span>
+                <span id="shootingstar"><ion-icon name="logo-javascript"></ion-icon></span>
             </section>
         </div>
     )
