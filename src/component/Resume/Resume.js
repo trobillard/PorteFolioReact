@@ -31,11 +31,11 @@ function Resume() {
             </div>
             </section>
             <section id="shooting">
-                <span id="shootingstar"><ion-icon name="logo-html5"></ion-icon></span>
-                <span id="shootingstar"><ion-icon name="logo-css3"></ion-icon></span>
-                <span id="shootingstar"><ion-icon name="logo-nodejs"></ion-icon></span>
-                <span id="shootingstar"><ion-icon name="logo-react"></ion-icon></span>
-                <span id="shootingstar"><ion-icon name="logo-wordpress"></ion-icon></span>
+                <span class="sKnow" id="shootingstar"><ion-icon name="logo-html5"></ion-icon></span>
+                <span class="sKnow" id="shootingstar"><ion-icon name="logo-css3"></ion-icon></span>
+                <span class="sKnow" id="shootingstar"><ion-icon name="logo-nodejs"></ion-icon></span>
+                <span class="sKnow" id="shootingstar"><ion-icon name="logo-react"></ion-icon></span>
+                <span class="sKnow" id="shootingstar"><ion-icon name="logo-wordpress"></ion-icon></span>
                 <span id="shootingstar"><ion-icon name="code-slash-outline"></ion-icon></span>
                 <span id="shootingstar"><ion-icon name="logo-python"></ion-icon></span>
                 <span id="shootingstar"><ion-icon name="logo-javascript"></ion-icon></span>

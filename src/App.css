@@ -278,7 +278,7 @@ h1::after {
 /****************ABoutMe*************/
 #AboutMe{
   height: 10vh;
-  margin-top: 0;
+  margin-top: 1em;
 }
 
 
@@ -310,6 +310,7 @@ h1::after {
 
 .timeline-card-content:hover{
   transform: translateY(-5%);
+  background: rgba(5, 5, 5, 0.9) !important;
 }
 
 .right, .left{
@@ -537,9 +538,10 @@ background: linear-gradient(90deg, rgba(252,96,163,1) 0%, rgb(245, 129, 179) 100
   box-shadow: 0 0 2px rgba(51, 51, 51, 0.3);
   z-index: 100;
 }
-#contact, #portfolio{
+#contact, #portfolio, #contacts{
   background-color: black;
   z-index: 100;
+  margin-top: 2em;
 }
 
 .imgProject img{
@@ -692,7 +694,7 @@ background: linear-gradient(90deg, rgba(252,96,163,1) 0%, rgb(245, 129, 179) 100
 }
 
 #resume{
-  margin-top: 0;
+  margin-top: 1em;
 }
 
 #containerP{
@@ -1052,6 +1054,7 @@ color: #fff;
     animation-duration: 4s;
   }
   
+
   @keyframes animate{
     0% {
       transform: rotate(315deg) translateX(0);
