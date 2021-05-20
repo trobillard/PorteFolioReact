@@ -725,15 +725,15 @@ h2{
   letter-spacing: 0.02em;
   text-transform: uppercase;
   text-shadow: 0 0 1.15em #e9b5d2;
-  margin-top: 2em;
-  margin-bottom: 1em;
+  /* margin-top: 2em; */
+  /* margin-bottom: 1em; */
   text-align: center;
 }
 
 #title1 {
   color: #f7d4d4;
-  margin-top: none !important;
-  margin-bottom: none !important;
+  /* margin-top: none !important; */
+  /* margin-bottom: none !important; */
 }
 
 .logoPro{
