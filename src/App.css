@@ -54,7 +54,7 @@ nav {
   backdrop-filter: blur 30px !important;
   border: 2px solid rgba(255, 255, 255, 0.7) !important;
   border-radius: 10px;
-  width: 50%;
+  width: 60%;
 }
 
 .logo {
@@ -997,6 +997,7 @@ height: 10%;
     height: 1px;
     background: linear-gradient(90deg, #fff, transparent);
   }
+  
   
   #shootingstar ion-icon {
 height: 30px;
